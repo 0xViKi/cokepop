@@ -86,9 +86,9 @@ def find_matching_password(wordlist, targetHash, targetSalt, iterations, dklen, 
     print(f"[+] Total Passwords: {totalPwds} ({totalChunks} chunks)")
     print("-" * 50)
 
-    with tqdm(total=totalChunks, desc="🧠 Cracking Chunks", ncols=90) as chunkProgressbar:
+    with tqdm(total=totalChunks, desc="🧠 Cracking Chunks", ncols=90, unit=" chunk") as chunkProgressbar:
         for chunkIndex, pwdChunk in enumerate(chunks(passwords, chunksize), 1):
-            with tqdm(total=len(pwdChunk), desc=f"🔐 Passwd in chunk {chunkIndex}", ncols=90, leave=False) as pwdProgressbar:
+            with tqdm(total=len(pwdChunk), desc=f"🔐 Passwd in chunk {chunkIndex}", ncols=90, leave=False, unit=" passwd") as pwdProgressbar:
                 with concurrent.futures.ProcessPoolExecutor(max_workers=cpuCount) as executor:
                     futures = {
                         executor.submit(check_password, pwd, targetHashBytes, targetSaltBytes, iterations, dklen): pwd
