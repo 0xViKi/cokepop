@@ -3,7 +3,6 @@
 <div align="center">
   
   ![CokePop Banner](https://img.shields.io/badge/CokePop%20PBKDF2--SHA256%20Cracker-8A2BE2?style=for-the-badge)
-  
   [![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](https://www.python.org/)
   [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
   
