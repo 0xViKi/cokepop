@@ -70,9 +70,10 @@ python cokepop.py -w rockyou.txt -s 5341c7952ca5bbcc -p a3f2d909b51a1f2f5d5cecc9
 ## ❓ Demo
 
 ![CokePop Help](./assets/help.png)
-![CokePop Cracking](./assets/cracking.png)
-![CokePop cracked](./assets/pot_file.png)
 
+![CokePop Cracking](./assets/cracking.png)
+
+![CokePop cracked](./assets/pot_file.png)
 
 
 ## 💡 How It Works
