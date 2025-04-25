@@ -3,6 +3,7 @@
 <div align="center">
   
   ![CokePop Banner](https://img.shields.io/badge/CokePop%20PBKDF2--SHA256%20Cracker-8A2BE2?style=for-the-badge)
+  
   [![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](https://www.python.org/)
   [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
   
@@ -65,6 +66,14 @@ python cokepop.py -w /path/to/wordlist.txt -s <salt-in-hex> -p <hash-in-hex> [op
 ```bash
 python cokepop.py -w rockyou.txt -s 5341c7952ca5bbcc -p a3f2d909b51a1f2f5d5cecc9b54ed6e24e4d29a1 -i 10000
 ```
+
+## ❓ Demo
+
+![CokePop Help](./assets/help.png)
+![CokePop Cracking](./assets/cracking.png)
+![CokePop cracked](./assets/pot_file.png)
+
+
 
 ## 💡 How It Works
 
